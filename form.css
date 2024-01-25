@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F8F9;
+}
+.form {
+    width: 655px;
+    height: 750px;
+    top: 43px;
+    left: 674px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 90;
+}
+form {
+    margin-top: 45px;
+}
+.icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 177px;
+    margin-top: -30px;
+    background-color: #291C44;
+}
+
+.bio {
+    display: flex;
+    width: 559px;
+    height: 76px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    border: none;
+    background: rgba(51, 51, 51, 0.06);
+    margin-top: 24px;
+    margin-left: 48px;
+    padding-left: 12px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.input {
+    margin-top: 24px;
+    margin-left: 48px;
+    width: 559px;
+    height: 56px;
+    border: none;
+    background: rgba(51, 51, 51, 0.06);
+    padding-left: 12px;
+}
+.pass {
+    margin-top: 24px;
+    margin-left: 48px;
+    width: 559px;
+    height: 56px;
+    border: none;
+    background: rgba(51, 51, 51, 0.06);
+    padding-left: 12px;
+    margin-bottom: 26px;
+}
+legend {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 48px;
+    padding-left: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+span {
+    margin-left: 40px;
+}
+.radio {
+    display: inline;
+    margin: 10px;
+}
+.checkbox {
+    display: flex;
+    margin-top: 19px;
+    margin-left: 54px
+}
+.Sumbit {
+    margin-top: 19px;
+    margin-left: 54px;
+    width: 96px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: none;
+    background: #57BEBE;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.checkbox label {
+    margin-left: 10px;
+}
+.reset {
+    margin-left: 16px;
+    width: 106px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: none;
+    background: #291C44;
+    color: #FFF;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+}
